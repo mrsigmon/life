@@ -63,6 +63,7 @@ void gettoken(void)  
     this.string[1]= '\0';
     this.type = *p;
     return;
+}
 read_to_first_identifier() {
     gettoken();
     while (this.type!=IDENTIFIER) {
@@ -71,4 +72,4 @@ read_to_first_identifier() {
     }
     printf("%s is ", this.string);
     gettoken();
-`}}
+}
