@@ -11,12 +11,15 @@ struct token {
     char type;
     char string[MAXTOKENLEN];
 };
+
 int top=-1;
 struct token stack[MAXTOKENS];
-struct token this;
+struct token this
+;
 #define pop stack[top--]
 #define push(s) stack[++top]=s
 enum type_tag classify_string(void)
+
 /* figure out the identifier type */
 {
     char *s = this.string;
