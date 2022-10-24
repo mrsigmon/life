@@ -64,6 +64,7 @@ void gettoken(void)  
     this.type = *p;
     return;
 }
+
 read_to_first_identifier() {
     gettoken();
     while (this.type!=IDENTIFIER) {
@@ -73,14 +74,15 @@ read_to_first_identifier() {
     printf("%s is ", this.string);
     gettoken();
 }
+
 deal_with_arrays() {
     while (this.type=='[') {
          printf("array ");
-         gettoken(); /* a number or ']' */
+         gettoken(); 
          if (isdigit(this.string[0])) {
              printf("0..%d ",atoi(this.string)-1);
-             gettoken(); /* read the ']' */
+             gettoken(); 
          }
-         gettoken(); /* read next past the ']' */
+         gettoken(); 
     }
 }
