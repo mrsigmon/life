@@ -20,7 +20,7 @@ struct token this
 #define push(s) stack[++top]=s
 enum type_tag classify_string(void)
 
-/* figure out the identifier type */
+
 {
     char *s = this.string;
     if (!strcmp(s,"const")) {
@@ -112,7 +112,7 @@ deal_with_declarator() {
    while (top>=0) {
        	if (stack[top].type == '(' ) {
             pop;
-            gettoken(); /* read past ')' */
+            gettoken();
             deal_with_declarator();
         } else {
             printf("%s ",pop.string);
@@ -122,7 +122,7 @@ deal_with_declarator() {
 
 main()
 {
-   /* put tokens on stack until we reach identifier */
+ 
    read_to_first_identifier();
    deal_with_declarator();
    printf("\n");
