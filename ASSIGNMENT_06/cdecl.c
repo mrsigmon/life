@@ -107,10 +107,10 @@ deal_with_declarator() {
    case '[' : deal_with_arrays(); break;
    case '(' : deal_with_function_args();
    }
-deal_with_pointers();
 
-   while (top>=0) {
-        if (stack[top].type == '(' ) {
+   deal_with_pointers();
+   while (top>=0) {
+       	if (stack[top].type == '(' ) {
             pop;
             gettoken(); /* read past ')' */
             deal_with_declarator();
