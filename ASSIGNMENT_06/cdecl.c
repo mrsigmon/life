@@ -99,4 +99,21 @@ deal_with_pointers() {
    while ( stack[top].type== '*' ) {
         printf("%s ", pop.string );
    }
-}
+deal_with_declarator() {
+   /* deal with possible array/function following the identifier */
+   switch (this.type) {
+   case '[' : deal_with_arrays(); break;
+   case '(' : deal_with_function_args();
+   }
+deal_with_pointers();
+/* process tokens that we stacked while reading to identifier */
+   while (top>=0) {
+        if (stack[top].type == '(' ) {
+            pop;
+            gettoken(); /* read past ')' */
+            deal_with_declarator();
+        } else {
+            printf("%s ",pop.string);
+        }
+   }
+}}
