@@ -85,4 +85,10 @@ deal_with_arrays() {
          }
          gettoken(); 
     }
+}deal_with_function_args() {
+    while (this.type!=')') {
+         gettoken();
+    }
+    gettoken();
+   printf("function returning ");
 }
