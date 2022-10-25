@@ -99,6 +99,7 @@ deal_with_pointers() {
    while ( stack[top].type== '*' ) {
         printf("%s ", pop.string );
    }
+}
 deal_with_declarator() {
    /* deal with possible array/function following the identifier */
    switch (this.type) {
@@ -116,4 +117,4 @@ deal_with_pointers();
             printf("%s ",pop.string);
         }
    }
-}}
+}
