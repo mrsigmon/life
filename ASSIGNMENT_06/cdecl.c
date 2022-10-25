@@ -13,7 +13,7 @@ struct token {
 };
 
 int top=-1;
-struct toke stack[MAXTOKENS];
+struct token stack[MAXTOKENS];
 struct token this;
 
 #define pop stack[top--]
@@ -21,7 +21,7 @@ struct token this;
 
 enum type_tag classify_string(void)
 {
-	char *s = this.string
+	char *s = this.string;
 	if (!strcmp(s,"const")) {
 		strcpy(s,"read-only");
 		return QUALIFIER;
@@ -44,10 +44,10 @@ enum type_tag classify_string(void)
 
 void gettoken(void)
 {
-	char *p = this.string
+	char *p = this.string;
 	while ((*p = getchar()) == ' ' );
 	if (isalnum(*p)) {
-		whille ( isalnum(*++p=getchar()) );
+		while ( isalnum(*++p=getchar()) );
 		ungetc(*p,stdin);
 		*p =  '\0';
 		this.type=classify_string();
@@ -122,8 +122,8 @@ deal_with_declarator() {
 main()
 {
 	read_to_first_identifier();
-	deal_with_declarato();
-	printf("\n);
+	deal_with_declarator();
+	printf("\n");
 	return 0;
 }
 
