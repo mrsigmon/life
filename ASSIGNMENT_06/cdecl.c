@@ -5,7 +5,7 @@
 #define MAXTOKENS 100
 #define MAXTOKENLEN 64
 
-enum type_tage { IDENTIFIER, QUALIFIER, TYPE };
+enum type_tag { IDENTIFIER, QUALIFIER, TYPE };
 
 struct token {
 	char type;
