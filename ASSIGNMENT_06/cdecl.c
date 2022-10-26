@@ -45,7 +45,7 @@ enum type_tag classify_string(void)
 void gettoken(void)
 {
 	char *p = this.string;
-	while ((*p = getchar()) == ' ' );
+	while ((*p = getchar()) == ' ' ) ;
 	if (isalnum(*p)) {
 		while ( isalnum(*++p=getchar()) );
 		ungetc(*p,stdin);
@@ -89,7 +89,7 @@ deal_with_arrays() {
 
 deal_with_function_args() {
 	while (this.type!=')') {
-		gettoken;
+		gettoken();
 	}
 	gettoken();
 	printf("function returning ");

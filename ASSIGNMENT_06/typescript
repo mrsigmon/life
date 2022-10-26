@@ -1,0 +1,35 @@
+Script started on 2022-10-26 13:21:02-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="189" LINES="44"]
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ exit[K[K[K[K./a.out
+int argc;
+argc is int 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+char *argv[];
+argv is array of pointer to char 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+char *argv();
+argv is function returning pointer to char 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+char (*j)[20];
+j is pointer to array 0..19 of char 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+const *   int * grape;
+grape is pointer to int read-only 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+int * const grape;
+grape is read-only pointer to int 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+const int * cons  t grape;
+grape is read-only pointer to int read-only 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+char* const *(*next)();
+next is pointer to function returning pointer to read-only pointer to char 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+char *(*c[10])(int **p);
+c is array 0..9 of pointer to function returning pointer to char 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ ./a.out
+typedef struct Perceptron *Perceptron
+typedef is 
+mrsigmon@th121-4:~/life/ASSIGNMENT_06$ exit
+exit
+
+Script done on 2022-10-26 13:23:23-04:00 [COMMAND_EXIT_CODE="0"]
