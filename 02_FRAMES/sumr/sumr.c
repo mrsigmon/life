@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	scanf("%d", &N); //%d
 	//Computer number
 	result = cumulative_sum(N);
-	//Retunr number
+	//Return number
 	printf("The sum from 1 to %d (inclusive) is %ld\n", N, result);
 	return 0;
 }
