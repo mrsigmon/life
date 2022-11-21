@@ -1,0 +1,72 @@
+5465a5f HEAD@{0}: commit: Add tarball
+15095cc HEAD@{1}: commit: Add Abstract Types
+24308da HEAD@{2}: merge feature/classifystring: Fast-forward
+1d1c2be HEAD@{3}: checkout: moving from feature/classifystring to main
+24308da HEAD@{4}: commit: test
+1d1c2be HEAD@{5}: checkout: moving from main to feature/classifystring
+1d1c2be HEAD@{6}: commit: Add Assignment 10
+eecd68f HEAD@{7}: commit: Add AS08.pdf
+e5a0ea4 HEAD@{8}: commit: Add Part_III
+ac12c37 HEAD@{9}: commit: Add Part_II
+063adec HEAD@{10}: commit: Add Part_I
+fa24ee8 HEAD@{11}: commit: Add 04_CONCRETE_TYPES
+9ef855e HEAD@{12}: commit: Add 03_MODULES
+dc19cad HEAD@{13}: commit: Remove Module 3 files
+cd11b83 HEAD@{14}: commit: Add new files
+bf669c4 HEAD@{15}: commit: Add main and lib files
+a37bec5 HEAD@{16}: commit: Test cdecl.c
+d86eda9 HEAD@{17}: commit: Fix typo
+ccf6a68 HEAD@{18}: commit: Fix typos
+d39325e HEAD@{19}: commit: Fix illegal character errors throughout file
+e477790 HEAD@{20}: merge feature/main: Fast-forward
+e2594a2 HEAD@{21}: checkout: moving from feature/main to main
+e477790 HEAD@{22}: commit: Remove remaining comments
+1543775 HEAD@{23}: commit: Add feature/main
+e2594a2 HEAD@{24}: checkout: moving from main to feature/main
+e2594a2 HEAD@{25}: merge feature/deal_with_declarator: Fast-forward
+0f3af6a HEAD@{26}: checkout: moving from feature/deal_with_declarator to main
+e2594a2 HEAD@{27}: commit: Fix indentation errors
+70dd766 HEAD@{28}: commit: Remove comments
+12753a7 HEAD@{29}: commit: Fix brace error
+165c511 HEAD@{30}: commit: Add deal_with_declarator
+0f3af6a HEAD@{31}: checkout: moving from main to feature/deal_with_declarator
+0f3af6a HEAD@{32}: checkout: moving from main to main
+0f3af6a HEAD@{33}: merge feature/deal_with_pointers: Fast-forward
+9faef19 HEAD@{34}: checkout: moving from feature/deal_with_pointers to main
+0f3af6a HEAD@{35}: commit: Fix indentation
+4538767 HEAD@{36}: commit: Add deal_with_pointers
+9faef19 HEAD@{37}: checkout: moving from main to feature/deal_with_pointers
+9faef19 HEAD@{38}: merge feature/deal_with_function_args: Fast-forward
+88a2ac6 HEAD@{39}: checkout: moving from feature/deal_with_function_args to main
+9faef19 HEAD@{40}: commit: Fix indentation
+1e75ab1 HEAD@{41}: commit: Add deal_with_function_args
+88a2ac6 HEAD@{42}: checkout: moving from main to feature/deal_with_function_args
+88a2ac6 HEAD@{43}: merge feature/deal_with_arrays: Fast-forward
+f5969d1 HEAD@{44}: checkout: moving from feature/deal_with_arrays to main
+88a2ac6 HEAD@{45}: commit: Fix spacing and remove comments
+da88ca7 HEAD@{46}: commit: Add deal_with_arrays
+f5969d1 HEAD@{47}: checkout: moving from main to feature/deal_with_arrays
+f5969d1 HEAD@{48}: checkout: moving from main to main
+f5969d1 HEAD@{49}: commit: Fix brace error
+3f644b6 HEAD@{50}: commit: Add read_to_first_identifier
+5ffe75e HEAD@{51}: merge feature/gettoken: Fast-forward
+568b7c6 HEAD@{52}: checkout: moving from feature/gettoken to main
+5ffe75e HEAD@{53}: commit: Add gettoken
+568b7c6 HEAD@{54}: checkout: moving from main to feature/gettoken
+568b7c6 HEAD@{55}: merge feature/classify_string: Fast-forward
+0b35219 HEAD@{56}: checkout: moving from feature/classify_string to main
+568b7c6 HEAD@{57}: checkout: moving from main to feature/classify_string
+0b35219 HEAD@{58}: checkout: moving from feature/classify_string to main
+568b7c6 HEAD@{59}: commit: Fix formatting
+5227d71 HEAD@{60}: commit: Add classify_string
+0b35219 HEAD@{61}: checkout: moving from main to feature/classify_string
+0b35219 HEAD@{62}: checkout: moving from main to main
+0b35219 HEAD@{63}: checkout: moving from feature/classify_string to main
+16d5f90 HEAD@{64}: commit: Fix formatting
+0b35219 HEAD@{65}: checkout: moving from main to feature/classify_string
+0b35219 HEAD@{66}: merge feature/cumulative_sum: Fast-forward
+e2c41b9 HEAD@{67}: checkout: moving from feature/cumulative_sum to main
+0b35219 HEAD@{68}: commit: Edit sumr.c
+e2c41b9 HEAD@{69}: checkout: moving from main to feature/cumulative_sum
+e2c41b9 HEAD@{70}: commit: Add sumr.c
+27fed1c HEAD@{71}: clone: from git@github.com:mrsigmon/life.git
