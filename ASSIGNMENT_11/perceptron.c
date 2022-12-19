@@ -87,7 +87,7 @@ void fit_model(Model model, Data data)
         misclassified = false;
         for (int i = 0; i < data->data_shape.number_of_examples; i++) {
             hypothesis = predict(model, data);
-            target = targets->elements[i];
+            target = data->targets->elements[i];
             if ((hypothesis > 0 && target > 0) || (hypothesis < 0 && target < 0)) // TODO Handle 0
                 continue;
             sgd(model, data);  // Update weights using misclassified point
@@ -106,5 +106,5 @@ void run_scoring_engine(Model model)
     printf("Enter y: \n");
     scanf("%lf", &y);
 
-    printf("Prediction = %d\n", predict(model, Data data));
+    printf("Prediction = %d\n", predict(model, data));
 }
